@@ -85,6 +85,8 @@ Project Status
 
 Core authentication functionality implemented and tested.
 
+Email delivery note: Password reset is implemented using Supabase Auth. Supabase’s default email service has strict sending limits. Production deployments should configure a custom SMTP provider for reliable email delivery.
+
 Author
 
 WICKEDCEO
